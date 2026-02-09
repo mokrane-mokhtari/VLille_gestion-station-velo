@@ -18,15 +18,6 @@ Le projet consiste en la gestion d'un système de vélos en libre-service, où l
 - Pas de MockBike lors de TestStation car Bike est une classe nulle qui ne contient que des get et set donc pas besoin de la mocker
 - Nous n'avons pas trouvé l'utilisation d'héritage de test pertinent dans ce projet
 
-## DOCUMENTATION 
-- La doc des getters et setters ont été ignorés comme vous l'avez demandé
-
-## HowTo
-1. Récupérer les Sources du Projet
-Pour récupérer les sources du projet depuis le dépôt Git, exécutez la commande suivante dans votre terminal :
-
-git clone https://gitlab-etu.fil.univ-lille.fr/mokrane.mokhtari.etu/projet-coo.git
-
 ## Précision : ce sont des commandes windows 
 2. Générer la Documentation :
 - javadoc -sourcepath src -d docs src/*.java
@@ -37,11 +28,11 @@ git clone https://gitlab-etu.fil.univ-lille.fr/mokrane.mokhtari.etu/projet-coo.g
 
 4. Lancement des tests :
 - java -jar junit-console.jar -classpath "classes/src;classes/test" -scan-classpath
-![TESTS](IMAGES\testsaccomplis.png)
+
 
 5. Excecution du Main : 
 - java -cp "classes/src" Main 
-![MAIN](IMAGES\Main.png)
+
 
 6. JAR 
 - Je suis désolé mais je n'ai pas réussi à générer le JAR manuellement malgrés mes heures de tentatives, j'ai donc fini par le faire avec mon ide directement...
@@ -92,6 +83,3 @@ Les principes SOLID ont bien été respecté au cours de ce projet, notre code c
 ### Réparations :
   Les vélos défectueux peuvent être réparés par des techniciens, ce qui garantit que les vélos en mauvais état ne sont pas utilisés par les clients.
 
-
-# UML
-![uml](IMAGES\UML.png)
