@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "test"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Yanis\\Documents\\L3\\COO\\projet-coo\\junit-console.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
